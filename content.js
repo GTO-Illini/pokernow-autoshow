@@ -6,7 +6,8 @@ const observer = new MutationObserver((mutations) => {
         const buttons = Array.from(document.querySelectorAll('button'));
         const showBtn = buttons.find(b => 
             b.textContent.trim().toLowerCase() === 'show cards' || 
-            b.textContent.trim().toLowerCase() === 'show'
+            b.textContent.trim().toLowerCase() === 'show' ||
+            b.textContent.trim().toLowerCase() === 'show all cards'
         );
 
         if (showBtn && !showBtn.disabled && !showBtn.dataset.autoClicked) {
