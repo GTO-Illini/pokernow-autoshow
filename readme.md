@@ -14,7 +14,7 @@ You will have to install AutoShow manually.
 4. Open Google Chrome and type `chrome://extensions/` into the search bar (and hit enter).
 5. Turn on **Developer mode** using the toggle switch in the top right of the page.
 6. Click the new **Load unpacked** button that appears in the top left of the page.
-7. A file explorer window will appear. Select the unzipped folder (the one which directly contains the `mainfest.json` file).
+7. A file explorer window will appear. Select the unzipped folder (the one which directly contains the `manifest.json` file).
 
 ## Usage
 Click the new puzzle piece icon in your browser toolbar, in the upper right.
