@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "PokerNow AutoShow",
-    "version": "1.0",
+    "version": "1.1",
     "description": "Automatically clicks the 'Show Cards' button whenever it appears.\nRequires manual activation for each PokerNow instance.",
     "action": {
       "default_popup": "popup.html"
